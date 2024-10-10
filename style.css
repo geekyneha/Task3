@@ -1,0 +1,39 @@
+/* Resetting margins and padding for consistency */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.content-wrapper {
+    width: 50vw;
+    margin-left: 25vw;  /* 25% spacing from left */
+    margin-right: 25vw; /* 25% spacing from right */
+    margin-top: 10vh;   /* 10% spacing from top */
+    margin-bottom: 10vh;/* 10% spacing from bottom */
+}
+
+/* Ensure image fits container */
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Customize the button appearance */
+button {
+    padding: 2% 40% ;
+    font-size: 1.5rem;
+    background: linear-gradient(45deg, #9e7bfe, #ff7e5f);
+    color: white;
+    
+    cursor: pointer;
+    
+    display: block;
+    margin: 20px auto;
+}
+
